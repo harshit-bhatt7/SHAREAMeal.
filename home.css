@@ -60,7 +60,7 @@ header{
 .nav-bar ul li a.active{
   color:var(--navcolor);
   background-color: var(--navfont);
-  /* border-bottom: 8px solid #06C167; */
+   border-bottom: 8px solid #06C167; 
  
 
 }

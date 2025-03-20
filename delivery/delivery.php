@@ -8,7 +8,9 @@ if($_SESSION['name']==''){
 	header("location:deliverylogin.php");
 }
 $name=$_SESSION['name'];
-$city=$_SESSION['city'];
+// Check if 'city' exists in the session before accessing it
+$city = isset($_SESSION['city']) ? $_SESSION['city'] : '';
+
 $ch=curl_init();
 curl_setopt($ch,CURLOPT_URL,"http://ip-api.com/json");
 curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
@@ -17,7 +19,8 @@ $result=json_decode($result);
 // $city= $result->city;
 // echo $city;
 
-$id=$_SESSION['Did'];
+// Check if 'Did' exists in the session before accessing it
+$id = isset($_SESSION['Did']) ? $_SESSION['Did'] : 0;
 
 
 
@@ -155,7 +158,7 @@ if (isset($_POST['food']) && isset($_POST['delivery_person_id'])) {
     }
 
     // Reload the page to prevent duplicate assignments
-    header('Location: ' . $_SERVER['REQUEST_URI']);
+    header('Location: ' . $_SERVER['order_URI']);
     // exit;
     ob_end_flush();
 }

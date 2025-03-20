@@ -22,7 +22,7 @@ if (isset($_POST['sign'])) {
         $_SESSION['name'] = $row['name'];
         $_SESSION['Did']=$row['Did'];
         $_SESSION['city']=$row['city'];
-        header("location:delivery.php");
+        header("location:Meals.php");
       } else {
         $msg = 1;
         // echo '<style type="text/css">
@@ -83,7 +83,7 @@ if (isset($_POST['sign'])) {
   </head>
   <body>
     <div class="center">
-      <h1>Delivery Login</h1>
+      <h1>ReceiverS Login</h1>
       <form method="post">
         <div class="txt_field">
           <input type="email" name="email" required/>

@@ -20,9 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `demo`
 --
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `admin`
 --
@@ -39,9 +36,6 @@ CREATE TABLE `admin` (
 --
 -- Dumping data for table `admin`
 --
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `delivery_persons`
 --
@@ -56,11 +50,6 @@ CREATE TABLE `delivery_persons` (
 
 --
 -- Dumping data for table `delivery_persons`
---
-
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `food_donations`
 --
@@ -84,9 +73,6 @@ CREATE TABLE `food_donations` (
 --
 -- Dumping data for table `food_donations`
 --
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `login`
 --
@@ -102,10 +88,6 @@ CREATE TABLE `login` (
 --
 -- Dumping data for table `login`
 --
-
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `user_feedback`
 --

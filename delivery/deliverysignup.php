@@ -85,34 +85,35 @@ if(isset($_POST['sign']))
           </div>
           <div class="">
                            <!-- <label for="district">District:</label> -->
-                           <select id="district" name="district" style="padding:10px; padding-left: 20px;">
-                          <option value="chennai">Chennai</option>
-                          <!-- <option value="kancheepuram">Kancheepuram</option>
-                          <option value="thiruvallur">Thiruvallur</option>
-                          <option value="vellore">Vellore</option>
-                          <option value="tiruvannamalai">Tiruvannamalai</option>
-                          <option value="tiruvallur">Tiruvallur</option>
-                          <option value="tiruppur">Tiruppur</option> -->
-                          <option value="coimbatore">Coimbatore</option>
-                          <!-- <option value="erode">Erode</option>
-                          <option value="salem">Salem</option>
-                          <option value="namakkal">Namakkal</option>
-                          <option value="tiruchirappalli">Tiruchirappalli</option>
-                          <option value="thanjavur">Thanjavur</option>
-                          <option value="pudukkottai">Pudukkottai</option>
-                          <option value="karur">Karur</option>
-                          <option value="ariyalur">Ariyalur</option>
-                          <option value="perambalur">Perambalur</option> -->
-                          <option value="madurai" selected>Madurai</option>
-                          <!-- <option value="virudhunagar">Virudhunagar</option>
-                          <option value="dindigul">Dindigul</option>
-                          <option value="ramanathapuram">Ramanathapuram</option>
-                          <option value="sivaganga">Sivaganga</option>
-                          <option value="thoothukkudi">Thoothukkudi</option>
-                          <option value="tirunelveli">Tirunelveli</option>
-                          <option value="tiruppur">Tiruppur</option>
-                          <option value="tenkasi">Tenkasi</option>
-                          <option value="kanniyakumari">Kanniyakumari</option> -->
+                        <select id="district" name="district" style="padding:10px; padding-left: 20px;">
+                        <option value="Andheri">Andheri</option>
+                        <option value="Bandra">Bandra</option>
+                        <option value="Bhandup">Bhandup</option>
+                        <option value="Borivali">Borivali</option>
+                        <option value="Byculla">Byculla</option>
+                        <option value="Chembur">Chembur</option>
+                        <option value="Colaba">Colaba</option>
+                        <option value="Dadar" selected>Dadar</option>
+                        <option value="Dahisar">Dahisar</option>
+                        <option value="Ghatkopar">Ghatkopar</option>
+                        <option value="Goregaon">Goregaon</option>
+                        <option value="Juhu">Juhu</option>
+                        <option value="Kandivali">Kandivali</option>
+                        <option value="Kurla">Kurla</option>
+                        <option value="Lower Parel">Lower Parel</option>
+                        <option value="Malad">Malad</option>
+                        <option value="Marine Lines">Marine Lines</option>
+                        <option value="Mazgaon">Mazgaon</option>
+                        <option value="Mulund">Mulund</option>
+                        <option value="Powai">Powai</option>
+                        <option value="Sewri">Sewri</option>
+                        <option value="Sion">Sion</option>
+                        <option value="South Mumbai">South Mumbai</option>
+                        <option value="Trombay">Trombay</option>
+                        <option value="Vasai">Vasai</option>
+                        <option value="Vikhroli">Vikhroli</option>
+                        <option value="Virar">Virar</option>
+                        <option value="Worli">Worli</option>
                         </select> 
                         
           </div>

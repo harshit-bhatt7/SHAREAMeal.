@@ -160,7 +160,7 @@
 
     <script>
       function getVisitorLocation() {
-  // make API request to ipinfo.io to retrieve location data
+  // make API order to ipinfo.io to retrieve location data
   fetch("https://ipapi.co/json/")
     .then(response => response.json())
     .then(data => {

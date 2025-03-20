@@ -209,7 +209,7 @@ if (isset($_POST['food']) && isset($_POST['delivery_person_id'])) {
     }
 
     // Reload the page to prevent duplicate assignments
-    header('Location: ' . $_SERVER['REQUEST_URI']);
+    header('Location: ' . $_SERVER['order_URI']);
     // exit;
     ob_end_flush();
 }

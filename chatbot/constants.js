@@ -59,7 +59,7 @@ const prompts = [
     ["I am infinite"],
     ["I am just a bot", "I am a bot. What are you?"],
     
-    ["kishor and uppili"],
+    ["Harshit"],
     ["I am chitti"],
     ["I love you too", "Me too"],
     ["Have you ever felt bad?", "Glad to hear it"],
